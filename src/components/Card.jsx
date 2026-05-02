@@ -5,7 +5,7 @@ export function Card({ name, email, role, isActive, location, description }) {
     const [showDetails, setShowDetails] = useState(false);
 
     return (
-        <div className="card" onClick={() => setShowDetails(prevShowDetails => !prevShowDetails)} style={isActive ? { border: "1px solid green" } : { border: "1px solid red" }}>
+        <div className="card" onClick={() => setShowDetails(prevShowDetails => !prevShowDetails)} style={isActive ? { border: "2px solid green" } : { border: "2px solid red" }}>
 
 
             <h2>{name}</h2>
