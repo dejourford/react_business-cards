@@ -1,0 +1,12 @@
+.card {
+    padding: 1rem;
+    height: 300px;
+    border-radius: 0.3rem;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(211, 211, 211, 0.5);
+}
